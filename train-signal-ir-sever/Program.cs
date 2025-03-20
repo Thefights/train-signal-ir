@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 using train_signal_ir_sever.Data;
+using train_signal_ir_sever.SignalIr;
 
 namespace train_signal_ir_sever
 {
@@ -11,6 +13,8 @@ namespace train_signal_ir_sever
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddSignalR();
+
 
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -24,6 +28,23 @@ namespace train_signal_ir_sever
                           .AllowAnyHeader()
                           .AllowCredentials());  // Enable cookies if needed
             });
+
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "Train Signal API",
+                    Version = "v1",
+                    Description = "API for Train Signal IR Server",
+                    Contact = new OpenApiContact
+                    {
+                        Name = "quachkhang",
+                        Email = "phuckhang1088@gmail.com",
+                    }
+                });
+            });
+
 
 
             var app = builder.Build();
@@ -39,9 +60,16 @@ namespace train_signal_ir_sever
             app.UseHttpsRedirection();
             app.UseRouting();
             app.UseCors("AllowLocalhost3000");
+            app.MapHub<ChatHub>("/Chat");
 
 
             app.UseAuthorization();
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Train Signal API v1");
+                c.RoutePrefix = "swagger"; // Swagger UI available at: https://localhost:5001/swagger
+            });
 
             app.MapStaticAssets();
             app.MapControllerRoute(

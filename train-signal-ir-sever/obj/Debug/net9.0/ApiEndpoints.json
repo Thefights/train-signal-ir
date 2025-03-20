@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "train_signal_ir_sever.Controllers.ProductManagementController",
+    "Method": "GetProducts",
+    "RelativePath": "product-management",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "train_signal_ir_sever.Controllers.ProductManagementController",
+    "Method": "AddProduct",
+    "RelativePath": "product-management",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "train_signal_ir_sever.Models.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "train_signal_ir_sever.Controllers.ProductManagementController",
+    "Method": "UpdateProduct",
+    "RelativePath": "product-management",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "train_signal_ir_sever.Models.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "train_signal_ir_sever.Controllers.ProductManagementController",
+    "Method": "DeleteProduct",
+    "RelativePath": "product-management",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

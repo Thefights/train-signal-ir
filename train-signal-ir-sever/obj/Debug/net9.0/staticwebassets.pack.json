@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\wwwroot\\launchSettings.json",
+      "PackagePath": "staticwebassets\\launchSettings.json"
+    },
+    {
       "Id": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },

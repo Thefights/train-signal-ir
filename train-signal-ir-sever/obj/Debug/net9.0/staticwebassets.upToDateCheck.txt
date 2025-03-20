@@ -42,6 +42,7 @@ D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\wwwroot\lib
 D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\wwwroot\launchSettings.json
 D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
 D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
 D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
@@ -63,6 +64,7 @@ D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\wwwroot\lib
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js
+wwwroot\launchSettings.json
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

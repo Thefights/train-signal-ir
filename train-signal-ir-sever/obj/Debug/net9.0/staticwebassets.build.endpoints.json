@@ -897,6 +897,304 @@
       ]
     },
     {
+      "Route": "launchSettings.7kn5bn3u2y.json",
+      "AssetFile": "launchSettings.json.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003663003663"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "272"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c3HBo9gNVWHhzGUpPuZJzo0ygrfgN7oN6vf90FgO3tE=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"eaK6uCxYCETDjJoR04Dd/4Gr7DEv2uym52hUEVSxqvA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 06:54:10 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7kn5bn3u2y"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eaK6uCxYCETDjJoR04Dd/4Gr7DEv2uym52hUEVSxqvA="
+        },
+        {
+          "Name": "label",
+          "Value": "launchSettings.json"
+        }
+      ]
+    },
+    {
+      "Route": "launchSettings.7kn5bn3u2y.json",
+      "AssetFile": "launchSettings.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "642"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eaK6uCxYCETDjJoR04Dd/4Gr7DEv2uym52hUEVSxqvA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 06:54:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7kn5bn3u2y"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eaK6uCxYCETDjJoR04Dd/4Gr7DEv2uym52hUEVSxqvA="
+        },
+        {
+          "Name": "label",
+          "Value": "launchSettings.json"
+        }
+      ]
+    },
+    {
+      "Route": "launchSettings.7kn5bn3u2y.json.gz",
+      "AssetFile": "launchSettings.json.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "272"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c3HBo9gNVWHhzGUpPuZJzo0ygrfgN7oN6vf90FgO3tE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 06:54:10 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7kn5bn3u2y"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c3HBo9gNVWHhzGUpPuZJzo0ygrfgN7oN6vf90FgO3tE="
+        },
+        {
+          "Name": "label",
+          "Value": "launchSettings.json.gz"
+        }
+      ]
+    },
+    {
+      "Route": "launchSettings.json",
+      "AssetFile": "launchSettings.json.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003663003663"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "272"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c3HBo9gNVWHhzGUpPuZJzo0ygrfgN7oN6vf90FgO3tE=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"eaK6uCxYCETDjJoR04Dd/4Gr7DEv2uym52hUEVSxqvA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 06:54:10 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eaK6uCxYCETDjJoR04Dd/4Gr7DEv2uym52hUEVSxqvA="
+        }
+      ]
+    },
+    {
+      "Route": "launchSettings.json",
+      "AssetFile": "launchSettings.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "642"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eaK6uCxYCETDjJoR04Dd/4Gr7DEv2uym52hUEVSxqvA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 06:54:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eaK6uCxYCETDjJoR04Dd/4Gr7DEv2uym52hUEVSxqvA="
+        }
+      ]
+    },
+    {
+      "Route": "launchSettings.json.gz",
+      "AssetFile": "launchSettings.json.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "272"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c3HBo9gNVWHhzGUpPuZJzo0ygrfgN7oN6vf90FgO3tE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 06:54:10 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c3HBo9gNVWHhzGUpPuZJzo0ygrfgN7oN6vf90FgO3tE="
+        }
+      ]
+    },
+    {
       "Route": "lib/bootstrap/LICENSE",
       "AssetFile": "lib/bootstrap/LICENSE",
       "Selectors": [],
@@ -18601,7 +18899,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 05:00:02 GMT"
+          "Value": "Thu, 20 Mar 2025 06:53:31 GMT"
         },
         {
           "Name": "Vary",
@@ -18650,7 +18948,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 05:00:02 GMT"
+          "Value": "Thu, 20 Mar 2025 06:53:31 GMT"
         }
       ],
       "EndpointProperties": [
@@ -18699,7 +18997,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 05:00:02 GMT"
+          "Value": "Thu, 20 Mar 2025 06:53:31 GMT"
         },
         {
           "Name": "Vary",
@@ -18762,7 +19060,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 05:00:02 GMT"
+          "Value": "Thu, 20 Mar 2025 06:53:31 GMT"
         },
         {
           "Name": "Vary",
@@ -18803,7 +19101,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 05:00:02 GMT"
+          "Value": "Thu, 20 Mar 2025 06:53:31 GMT"
         }
       ],
       "EndpointProperties": [
@@ -18844,7 +19142,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 05:00:02 GMT"
+          "Value": "Thu, 20 Mar 2025 06:53:31 GMT"
         },
         {
           "Name": "Vary",

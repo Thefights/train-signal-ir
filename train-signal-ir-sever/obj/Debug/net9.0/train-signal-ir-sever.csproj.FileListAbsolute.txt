@@ -231,3 +231,9 @@ D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\obj\Debug\n
 D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\obj\Debug\net9.0\train-signal-ir-sever.pdb
 D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\obj\Debug\net9.0\train-signal-ir-sever.genruntimeconfig.cache
 D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\obj\Debug\net9.0\ref\train-signal-ir-sever.dll
+D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\bin\Debug\net9.0\Microsoft.OpenApi.dll
+D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\obj\Debug\net9.0\train-signal-ir-sever.MvcApplicationPartsAssemblyInfo.cs
+D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\obj\Debug\net9.0\compressed\ppxeay5zsp-7kn5bn3u2y.gz

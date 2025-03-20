@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gMTPZZf/txh2Af7jMAz8px2c9XqommdzYF5+tH8A6pk=",
+  "Hash": "FIGqbGcTRteFdhhBp7fjfOJjcp35aX1ftctAlWRAyLo=",
   "Source": "train-signal-ir-sever",
   "BasePath": "_content/train-signal-ir-sever",
   "Mode": "Default",
@@ -962,6 +962,27 @@
       "OriginalItemSpec": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
+      "Identity": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\obj\\Debug\\net9.0\\compressed\\ppxeay5zsp-7kn5bn3u2y.gz",
+      "SourceId": "train-signal-ir-sever",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/train-signal-ir-sever",
+      "RelativePath": "launchSettings#[.{fingerprint=7kn5bn3u2y}]?.json.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\wwwroot\\launchSettings.json",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "t8d2jra0ws",
+      "Integrity": "c3HBo9gNVWHhzGUpPuZJzo0ygrfgN7oN6vf90FgO3tE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\wwwroot\\launchSettings.json"
+    },
+    {
       "Identity": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\obj\\Debug\\net9.0\\compressed\\pwcqopee8p-d7shbmvgxk.gz",
       "SourceId": "train-signal-ir-sever",
       "SourceType": "Discovered",
@@ -1464,6 +1485,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\wwwroot\\launchSettings.json",
+      "SourceId": "train-signal-ir-sever",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\wwwroot\\",
+      "BasePath": "_content/train-signal-ir-sever",
+      "RelativePath": "launchSettings#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7kn5bn3u2y",
+      "Integrity": "eaK6uCxYCETDjJoR04Dd/4Gr7DEv2uym52hUEVSxqvA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\launchSettings.json"
     },
     {
       "Identity": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -3618,6 +3660,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA="
+        }
+      ]
+    },
+    {
+      "Route": "launchSettings.7kn5bn3u2y.json",
+      "AssetFile": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\obj\\Debug\\net9.0\\compressed\\ppxeay5zsp-7kn5bn3u2y.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003663003663"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "272"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c3HBo9gNVWHhzGUpPuZJzo0ygrfgN7oN6vf90FgO3tE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 06:54:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"eaK6uCxYCETDjJoR04Dd/4Gr7DEv2uym52hUEVSxqvA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7kn5bn3u2y"
+        },
+        {
+          "Name": "label",
+          "Value": "launchSettings.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eaK6uCxYCETDjJoR04Dd/4Gr7DEv2uym52hUEVSxqvA="
+        }
+      ]
+    },
+    {
+      "Route": "launchSettings.7kn5bn3u2y.json",
+      "AssetFile": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\wwwroot\\launchSettings.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "642"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eaK6uCxYCETDjJoR04Dd/4Gr7DEv2uym52hUEVSxqvA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 06:54:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7kn5bn3u2y"
+        },
+        {
+          "Name": "label",
+          "Value": "launchSettings.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eaK6uCxYCETDjJoR04Dd/4Gr7DEv2uym52hUEVSxqvA="
+        }
+      ]
+    },
+    {
+      "Route": "launchSettings.7kn5bn3u2y.json.gz",
+      "AssetFile": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\obj\\Debug\\net9.0\\compressed\\ppxeay5zsp-7kn5bn3u2y.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "272"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c3HBo9gNVWHhzGUpPuZJzo0ygrfgN7oN6vf90FgO3tE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 06:54:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7kn5bn3u2y"
+        },
+        {
+          "Name": "label",
+          "Value": "launchSettings.json.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c3HBo9gNVWHhzGUpPuZJzo0ygrfgN7oN6vf90FgO3tE="
+        }
+      ]
+    },
+    {
+      "Route": "launchSettings.json",
+      "AssetFile": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\obj\\Debug\\net9.0\\compressed\\ppxeay5zsp-7kn5bn3u2y.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003663003663"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "272"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c3HBo9gNVWHhzGUpPuZJzo0ygrfgN7oN6vf90FgO3tE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 06:54:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"eaK6uCxYCETDjJoR04Dd/4Gr7DEv2uym52hUEVSxqvA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eaK6uCxYCETDjJoR04Dd/4Gr7DEv2uym52hUEVSxqvA="
+        }
+      ]
+    },
+    {
+      "Route": "launchSettings.json",
+      "AssetFile": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\wwwroot\\launchSettings.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "642"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eaK6uCxYCETDjJoR04Dd/4Gr7DEv2uym52hUEVSxqvA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 06:54:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eaK6uCxYCETDjJoR04Dd/4Gr7DEv2uym52hUEVSxqvA="
+        }
+      ]
+    },
+    {
+      "Route": "launchSettings.json.gz",
+      "AssetFile": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\obj\\Debug\\net9.0\\compressed\\ppxeay5zsp-7kn5bn3u2y.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "272"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c3HBo9gNVWHhzGUpPuZJzo0ygrfgN7oN6vf90FgO3tE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 06:54:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c3HBo9gNVWHhzGUpPuZJzo0ygrfgN7oN6vf90FgO3tE="
         }
       ]
     },
@@ -21310,7 +21650,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 05:00:02 GMT"
+          "Value": "Thu, 20 Mar 2025 06:53:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21371,7 +21711,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 05:00:02 GMT"
+          "Value": "Thu, 20 Mar 2025 06:53:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21416,7 +21756,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 05:00:02 GMT"
+          "Value": "Thu, 20 Mar 2025 06:53:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21471,7 +21811,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 05:00:02 GMT"
+          "Value": "Thu, 20 Mar 2025 06:53:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21532,7 +21872,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 05:00:02 GMT"
+          "Value": "Thu, 20 Mar 2025 06:53:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21577,7 +21917,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 05:00:02 GMT"
+          "Value": "Thu, 20 Mar 2025 06:53:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21632,7 +21972,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 05:00:02 GMT"
+          "Value": "Thu, 20 Mar 2025 06:53:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21685,7 +22025,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 05:00:02 GMT"
+          "Value": "Thu, 20 Mar 2025 06:53:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21722,7 +22062,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 05:00:02 GMT"
+          "Value": "Thu, 20 Mar 2025 06:53:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21769,7 +22109,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 05:00:02 GMT"
+          "Value": "Thu, 20 Mar 2025 06:53:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21822,7 +22162,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 05:00:02 GMT"
+          "Value": "Thu, 20 Mar 2025 06:53:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21859,7 +22199,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 05:00:02 GMT"
+          "Value": "Thu, 20 Mar 2025 06:53:31 GMT"
         },
         {
           "Name": "Cache-Control",
