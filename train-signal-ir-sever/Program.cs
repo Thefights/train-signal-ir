@@ -11,9 +11,20 @@ namespace train_signal_ir_sever
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(connectionString));
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowLocalhost3000", policy =>
+                    policy.WithOrigins("http://localhost:3000")  // Allow only this origin
+                          .AllowAnyMethod()
+                          .AllowAnyHeader()
+                          .AllowCredentials());  // Enable cookies if needed
+            });
+
 
             var app = builder.Build();
 
@@ -27,6 +38,8 @@ namespace train_signal_ir_sever
 
             app.UseHttpsRedirection();
             app.UseRouting();
+            app.UseCors("AllowLocalhost3000");
+
 
             app.UseAuthorization();
 
