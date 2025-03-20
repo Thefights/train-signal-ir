@@ -9,33 +9,34 @@ import {
   DialogActions,
 } from "@mui/material";
 
-const UpdateProduct = ({ productId, onClose }) => {
-  const [product, setProduct] = useState({
-    name: "",
-    description: "",
-    price: "",
-  });
+const UpdateProduct = ({ product, onClose }) => {
+  // Khởi tạo state với dữ liệu sản phẩm được truyền từ component cha
+  const [updatedProduct, setUpdatedProduct] = useState(product);
 
-  // Fetch product details by ID when the popup opens
+  // Cập nhật lại state nếu prop product thay đổi
   useEffect(() => {
-    if (productId) {
-      axios
-        .get(`http://localhost:5000/api/products/${productId}`)
-        .then((res) => setProduct(res.data))
-        .catch((error) => console.error("Error fetching product:", error));
+    if (product) {
+      setUpdatedProduct(product); // ✅ Chỉ cập nhật khi product hợp lệ
     }
-  }, [productId]);
+  }, [product]);
 
   const handleChange = (e) => {
-    setProduct({ ...product, [e.target.name]: e.target.value });
+    setUpdatedProduct({
+      ...updatedProduct,
+      [e.target.name]: e.target.value,
+    });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .put(`http://localhost:5000/api/products/${productId}`, product)
+      .put("https://localhost:7096/product-management", {
+        // Giả định rằng updatedProduct đã có thuộc tính id
+        ...updatedProduct,
+        price: parseFloat(updatedProduct.price),
+      })
       .then(() => {
-        onClose(); // Close popup on success
+        onClose(); // Đóng dialog sau khi cập nhật thành công
       })
       .catch((error) => console.error("Error updating product:", error));
   };
@@ -52,7 +53,7 @@ const UpdateProduct = ({ productId, onClose }) => {
             label="Name"
             name="name"
             margin="dense"
-            value={product.name}
+            value={updatedProduct.name || ""}
             onChange={handleChange}
             required
           />
@@ -61,7 +62,7 @@ const UpdateProduct = ({ productId, onClose }) => {
             label="Description"
             name="description"
             margin="dense"
-            value={product.description}
+            value={updatedProduct.description}
             onChange={handleChange}
             required
           />
@@ -71,7 +72,7 @@ const UpdateProduct = ({ productId, onClose }) => {
             name="price"
             type="number"
             margin="dense"
-            value={product.price}
+            value={updatedProduct.price}
             onChange={handleChange}
             required
           />

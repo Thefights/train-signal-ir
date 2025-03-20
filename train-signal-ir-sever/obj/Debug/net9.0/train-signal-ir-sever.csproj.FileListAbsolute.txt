@@ -237,3 +237,13 @@ D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\bin\Debug\n
 D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\obj\Debug\net9.0\train-signal-ir-sever.MvcApplicationPartsAssemblyInfo.cs
 D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\obj\Debug\net9.0\compressed\ppxeay5zsp-7kn5bn3u2y.gz
+D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\bin\Debug\net9.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\bin\Debug\net9.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\bin\Debug\net9.0\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\bin\Debug\net9.0\Microsoft.AspNetCore.SignalR.Client.dll
+D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\bin\Debug\net9.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\bin\Debug\net9.0\Microsoft.AspNetCore.SignalR.Common.dll
+D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\bin\Debug\net9.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\bin\Debug\net9.0\Microsoft.Extensions.Features.dll
+D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\bin\Debug\net9.0\System.Net.ServerSentEvents.dll
+D:\FPT-Semester6\TrainSignalIr\train-signal-ir\train-signal-ir-sever\bin\Debug\net9.0\System.Threading.Channels.dll

@@ -24,8 +24,7 @@ namespace train_signal_ir_sever.Controllers
         {
             _dbContext.Product.Add(product);
             await _dbContext.SaveChangesAsync();
-            await _hubContext.Clients.All.SendAsync("ReceiveProductAdd", product);
-            return Ok();
+            return Ok(product);
         }
         [HttpPut]
         public async Task<IActionResult> UpdateProduct(Product product)

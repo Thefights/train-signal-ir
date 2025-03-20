@@ -23,10 +23,10 @@ namespace train_signal_ir_sever
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy("AllowLocalhost3000", policy =>
-                    policy.WithOrigins("http://localhost:3000")  // Allow only this origin
+                    policy.WithOrigins("http://localhost:3000")
                           .AllowAnyMethod()
                           .AllowAnyHeader()
-                          .AllowCredentials());  // Enable cookies if needed
+                          .AllowCredentials());
             });
 
             builder.Services.AddEndpointsApiExplorer();
@@ -65,19 +65,18 @@ namespace train_signal_ir_sever
                 c.RoutePrefix = "swagger"; // Swagger UI available at: https://localhost:5001/swagger
             });
 
-            app.UseCors("AllowLocalhost3000");
-            app.UseCors("AllowReactApp");
             app.UseRouting();
 
-            app.UseAuthorization();
-            app.MapHub<ProductHub>("/productHub");
+            app.UseCors("AllowLocalhost3000");
 
-            app.MapStaticAssets();
+            app.UseAuthorization();
+
+
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}")
-                .WithStaticAssets();
+                pattern: "{controller=Home}/{action=Index}/{id?}");
 
+            app.MapHub<ProductHub>("/productHub");
             app.Run();
         }
     }
