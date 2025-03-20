@@ -1,2 +1,34 @@
-train-signal-ir-sever/.vs/train-signal-ir-sever/FileContentIndex/58a65640-daa5-4de5-bcb1-ca01784823a1.vsidx
-train-signal-ir-sever/.vs/train-signal-ir-sever/FileContentIndex/b4210a04-08fc-4863-b66f-2119668ca0e9.vsidx
+# 🚀 Ignore node_modules (Dependencies)
+node_modules/
+
+# 🚀 Ignore logs & temp files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# 🚀 Ignore IDE files (VS Code, JetBrains, Eclipse)
+.vscode/
+.idea/
+*.iml
+
+# 🚀 Ignore build & compiled files
+dist/
+build/
+*.cache
+*.db
+
+# 🚀 Ignore Visual Studio & .NET temporary files
+.vs/
+*.vsidx
+*.suo
+*.dll
+*.pdb
+*.exe
+
+# 🚀 Ignore Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
