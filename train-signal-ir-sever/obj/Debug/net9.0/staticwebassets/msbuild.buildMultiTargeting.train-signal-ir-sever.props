@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\train-signal-ir-sever.props" />
+</Project>

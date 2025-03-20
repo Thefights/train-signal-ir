@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using train_signal_ir_sever.Data;
+
 namespace train_signal_ir_sever
 {
     public class Program
@@ -8,6 +11,9 @@ namespace train_signal_ir_sever
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseSqlServer(connectionString));
 
             var app = builder.Build();
 
