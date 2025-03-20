@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("train-signal-ir-sever")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c1791e20fe567ea3ef5e52fd4e6062ec74a35b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb0ab1ac9c06f5c16ef859263b999e66274debce")]
 [assembly: System.Reflection.AssemblyProductAttribute("train-signal-ir-sever")]
 [assembly: System.Reflection.AssemblyTitleAttribute("train-signal-ir-sever")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

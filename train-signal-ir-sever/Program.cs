@@ -58,18 +58,18 @@ namespace train_signal_ir_sever
             }
 
             app.UseHttpsRedirection();
-            app.UseRouting();
-            app.UseCors("AllowLocalhost3000");
-            app.MapHub<ChatHub>("/Chat");
-
-
-            app.UseAuthorization();
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Train Signal API v1");
                 c.RoutePrefix = "swagger"; // Swagger UI available at: https://localhost:5001/swagger
             });
+
+            app.UseCors("AllowLocalhost3000");
+            app.UseRouting();
+
+            app.UseAuthorization();
+            app.MapHub<ProductHub>("/productHub");
 
             app.MapStaticAssets();
             app.MapControllerRoute(

@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|d:\\fpt-semester6\\trainsignalir\\train-signal-ir\\train-signal-ir-sever\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|d:\\fpt-semester6\\trainsignalir\\train-signal-ir\\train-signal-ir-sever\\controllers\\productmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|solutionrelative:controllers\\productmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|d:\\fpt-semester6\\trainsignalir\\train-signal-ir\\train-signal-ir-sever\\signalir\\producthub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|solutionrelative:signalir\\producthub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|d:\\fpt-semester6\\trainsignalir\\train-signal-ir\\train-signal-ir-sever\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|d:\\fpt-semester6\\trainsignalir\\train-signal-ir\\train-signal-ir-sever\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -13,18 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|d:\\fpt-semester6\\trainsignalir\\train-signal-ir\\train-signal-ir-sever\\train-signal-ir-sever.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|solutionrelative:train-signal-ir-sever.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|d:\\fpt-semester6\\trainsignalir\\train-signal-ir\\train-signal-ir-sever\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|d:\\fpt-semester6\\trainsignalir\\train-signal-ir\\train-signal-ir-sever\\signalir\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|solutionrelative:signalir\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|d:\\fpt-semester6\\trainsignalir\\train-signal-ir\\train-signal-ir-sever\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|d:\\fpt-semester6\\trainsignalir\\train-signal-ir\\train-signal-ir-sever\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -50,11 +50,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "ProductHub.cs",
+              "DocumentMoniker": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\SignalIr\\ProductHub.cs",
+              "RelativeDocumentMoniker": "SignalIr\\ProductHub.cs",
+              "ToolTip": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\SignalIr\\ProductHub.cs",
+              "RelativeToolTip": "SignalIr\\ProductHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T07:08:33.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -67,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -75,19 +88,8 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T06:35:30.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ChatHub.cs",
-              "DocumentMoniker": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\SignalIr\\ChatHub.cs",
-              "RelativeDocumentMoniker": "SignalIr\\ChatHub.cs",
-              "ToolTip": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\SignalIr\\ChatHub.cs",
-              "RelativeToolTip": "SignalIr\\ChatHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T06:34:57.956Z"
+              "WhenOpened": "2025-03-20T06:35:30.207Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -115,33 +117,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAYwFMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T04:20:34.295Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductManagementController.cs",
               "DocumentMoniker": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\Controllers\\ProductManagementController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductManagementController.cs",
               "ToolTip": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\Controllers\\ProductManagementController.cs",
               "RelativeToolTip": "Controllers\\ProductManagementController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAmwCgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T06:40:16.182Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "train-signal-ir-sever",
               "DocumentMoniker": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\train-signal-ir-sever.csproj",
               "RelativeDocumentMoniker": "train-signal-ir-sever.csproj",

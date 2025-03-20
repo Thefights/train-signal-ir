@@ -44,7 +44,7 @@
   {
     "ContainingType": "train_signal_ir_sever.Controllers.ProductManagementController",
     "Method": "DeleteProduct",
-    "RelativePath": "product-management",
+    "RelativePath": "product-management/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -52,7 +52,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
