@@ -8,7 +8,7 @@ using train_signal_ir_sever.SignalIr;
 
 namespace train_signal_ir_sever.Controllers
 {
-    [Route("/product-management")]
+    [Route("product-management")]
     [ApiController]
     public class ProductManagementController (ApplicationDbContext _dbContext, IHubContext<ProductHub> _hubContext) : ControllerBase
     {

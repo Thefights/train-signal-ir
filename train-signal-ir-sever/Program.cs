@@ -66,6 +66,7 @@ namespace train_signal_ir_sever
             });
 
             app.UseCors("AllowLocalhost3000");
+            app.UseCors("AllowReactApp");
             app.UseRouting();
 
             app.UseAuthorization();
