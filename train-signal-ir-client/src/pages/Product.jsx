@@ -7,27 +7,39 @@ import {
   Typography,
   Paper,
 } from "@mui/material";
-import { getProducts } from "../services/api"; // Import the API call
+
+import { getProducts } from "../services/api";
+import {
+  startSignalRConnection,
+  stopSignalRConnection,
+} from "../services/signalRService.js";
 
 const Product = () => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // 🔵 Fetch Products from API
   useEffect(() => {
-    const fetchProducts = async () => {
-      try {
-        const data = await getProducts();
-        console.log(data);
-        setProducts(data); // Store API response
-      } catch (error) {
-        console.error("Error fetching products:", error);
-      } finally {
-        setLoading(false);
-      }
+    const fetchData = async () => {
+      const data = await getProducts();
+      setProducts(data);
+      setLoading(false);
     };
+    fetchData();
 
-    fetchProducts();
+    startSignalRConnection({
+      onAdd: (product) =>
+        setProducts((prev) =>
+          prev.some((p) => p.id === product.id) ? prev : [...prev, product]
+        ),
+      onUpdate: (updated) =>
+        setProducts((prev) =>
+          prev.map((p) => (p.id === updated.id ? updated : p))
+        ),
+      onDelete: (id) => setProducts((prev) => prev.filter((p) => p.id !== id)),
+    });
+    return () => {
+      stopSignalRConnection();
+    };
   }, []);
 
   return (
@@ -35,6 +47,7 @@ const Product = () => {
       <Typography variant="h4" align="center" gutterBottom>
         Product List
       </Typography>
+
       <Grid container spacing={3}>
         {loading ? (
           <Typography variant="h6" align="center" sx={{ width: "100%" }}>
@@ -51,7 +64,7 @@ const Product = () => {
                       {product.description}
                     </Typography>
                     <Typography variant="h6" color="primary">
-                      ${product.price.toFixed(2)}
+                      ${Number(product.price).toFixed(2)}
                     </Typography>
                     <Typography variant="subtitle2" color="textSecondary">
                       Product ID: {product.id}

@@ -1,3 +1,4 @@
+// UpdateProduct.js
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import {
@@ -9,14 +10,14 @@ import {
   DialogActions,
 } from "@mui/material";
 
+const API_BASE_URL = "https://localhost:7096/product-management";
+
 const UpdateProduct = ({ product, onClose }) => {
-  // Khởi tạo state với dữ liệu sản phẩm được truyền từ component cha
   const [updatedProduct, setUpdatedProduct] = useState(product);
 
-  // Cập nhật lại state nếu prop product thay đổi
   useEffect(() => {
     if (product) {
-      setUpdatedProduct(product); // ✅ Chỉ cập nhật khi product hợp lệ
+      setUpdatedProduct(product);
     }
   }, [product]);
 
@@ -30,13 +31,13 @@ const UpdateProduct = ({ product, onClose }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .put("https://localhost:7096/product-management", {
-        // Giả định rằng updatedProduct đã có thuộc tính id
+      .put(API_BASE_URL, {
         ...updatedProduct,
         price: parseFloat(updatedProduct.price),
       })
-      .then(() => {
-        onClose(); // Đóng dialog sau khi cập nhật thành công
+      .then((response) => {
+        console.log("Updated product:", response.data);
+        onClose();
       })
       .catch((error) => console.error("Error updating product:", error));
   };
@@ -47,6 +48,7 @@ const UpdateProduct = ({ product, onClose }) => {
         <Typography variant="h5" gutterBottom>
           Update Product
         </Typography>
+
         <form onSubmit={handleSubmit}>
           <TextField
             fullWidth
@@ -62,7 +64,7 @@ const UpdateProduct = ({ product, onClose }) => {
             label="Description"
             name="description"
             margin="dense"
-            value={updatedProduct.description}
+            value={updatedProduct.description || ""}
             onChange={handleChange}
             required
           />
@@ -72,7 +74,7 @@ const UpdateProduct = ({ product, onClose }) => {
             name="price"
             type="number"
             margin="dense"
-            value={updatedProduct.price}
+            value={updatedProduct.price || ""}
             onChange={handleChange}
             required
           />

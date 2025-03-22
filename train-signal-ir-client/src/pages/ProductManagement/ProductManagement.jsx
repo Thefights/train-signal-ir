@@ -14,7 +14,10 @@ import {
 import AddProduct from "./AddProduct";
 import UpdateProduct from "./UpdateProduct";
 import { getProducts, deleteProduct } from "../../services/api";
-import * as signalR from "@microsoft/signalr";
+import {
+  startSignalRConnection,
+  stopSignalRConnection,
+} from "../../services/signalRService";
 
 const ProductManagement = () => {
   const [products, setProducts] = useState([]);
@@ -28,69 +31,39 @@ const ProductManagement = () => {
       setProducts(data);
     };
     fetchData();
-    setupSignalR();
+
+    startSignalRConnection({
+      onAdd: (product) =>
+        setProducts((prev) =>
+          prev.some((p) => p.id === product.id) ? prev : [...prev, product]
+        ),
+      onUpdate: (updated) =>
+        setProducts((prev) =>
+          prev.map((p) => (p.id === updated.id ? updated : p))
+        ),
+      onDelete: (id) => setProducts((prev) => prev.filter((p) => p.id !== id)),
+    });
+    // Clean up on unmount
+    return () => {
+      stopSignalRConnection();
+    };
   }, []);
 
-  // Setup SignalR for real-time updates
-  const setupSignalR = () => {
-    const connection = new signalR.HubConnectionBuilder()
-      .withUrl("https://localhost:7096/productHub")
-      .withAutomaticReconnect()
-      .build();
-
-    connection
-      .start()
-      .catch((err) => console.error("SignalR Connection Error:", err));
-
-    connection.on("ReceiveProductAdd", (product) => {
-      setProducts((prevProducts) => [...prevProducts, product]);
-    });
-
-    connection.on("ReceiveProductUpdate", (updatedProduct) => {
-      setProducts((prevProducts) =>
-        prevProducts.map((p) =>
-          p.id === updatedProduct.id ? updatedProduct : p
-        )
-      );
-    });
-
-    connection.on("ReceiveProductDelete", (productId) => {
-      setProducts((prevProducts) =>
-        prevProducts.filter((p) => p.id !== productId)
-      );
-    });
-
-    return () => {
-      connection.stop();
-    };
-  };
-
-  // Handle opening the update dialog
+  // Open dialog update
   const handleOpenUpdate = (product) => {
     setSelectedProduct(product);
     setOpenUpdate(true);
   };
 
-  // Handle product deletion
+  // Delete product
   const handleDeleteProduct = async (productId) => {
-    const success = await deleteProduct(productId);
-    if (success) {
-      setProducts((prevProducts) =>
-        prevProducts.filter((p) => p.id !== productId)
-      );
-    }
-  };
-
-  // Handle product addition
-  const handleProductAdded = (newProduct) => {
-    setProducts([...products, newProduct]);
+    await deleteProduct(productId);
   };
 
   return (
     <Container maxWidth="md">
       <h2>Product Management</h2>
 
-      {/* Add Product Button */}
       <Button
         variant="contained"
         color="primary"
@@ -100,20 +73,15 @@ const ProductManagement = () => {
         Add Product
       </Button>
 
-      {/* Add Product Dialog */}
       <Dialog
         open={openAdd}
         onClose={() => setOpenAdd(false)}
         fullWidth
         maxWidth="sm"
       >
-        <AddProduct
-          onClose={() => setOpenAdd(false)}
-          onProductAdded={handleProductAdded}
-        />
+        <AddProduct onClose={() => setOpenAdd(false)} />
       </Dialog>
 
-      {/* Product Table */}
       <TableContainer component={Paper}>
         <Table>
           <TableHead>
@@ -125,6 +93,7 @@ const ProductManagement = () => {
               <TableCell>Actions</TableCell>
             </TableRow>
           </TableHead>
+
           <TableBody>
             {products.map((product) => (
               <TableRow key={product.id}>
@@ -132,13 +101,9 @@ const ProductManagement = () => {
                 <TableCell>{product.name}</TableCell>
                 <TableCell>{product.description}</TableCell>
                 <TableCell>
-                  $
-                  {product.price !== undefined
-                    ? Number(product.price).toFixed(2)
-                    : "0.00"}
+                  ${product.price ? Number(product.price).toFixed(2) : "0.00"}
                 </TableCell>
                 <TableCell>
-                  {/* Open Update Dialog */}
                   <Button
                     variant="outlined"
                     color="primary"
@@ -148,7 +113,6 @@ const ProductManagement = () => {
                     Update
                   </Button>
 
-                  {/* Delete Button */}
                   <Button
                     variant="outlined"
                     color="error"
@@ -163,7 +127,6 @@ const ProductManagement = () => {
         </Table>
       </TableContainer>
 
-      {/* Update Product Dialog (Single Instance) */}
       <Dialog
         open={openUpdate}
         onClose={() => setOpenUpdate(false)}
@@ -172,7 +135,7 @@ const ProductManagement = () => {
       >
         {selectedProduct && (
           <UpdateProduct
-            product={selectedProduct} // Pass the complete product object
+            product={selectedProduct}
             onClose={() => setOpenUpdate(false)}
           />
         )}

@@ -24,6 +24,7 @@ namespace train_signal_ir_sever.Controllers
         {
             _dbContext.Product.Add(product);
             await _dbContext.SaveChangesAsync();
+            await _hubContext.Clients.All.SendAsync("ReceiveProductAdded", product);
             return Ok(product);
         }
         [HttpPut]
@@ -31,7 +32,7 @@ namespace train_signal_ir_sever.Controllers
         {
             _dbContext.Product.Update(product);
             await _dbContext.SaveChangesAsync();
-            await _hubContext.Clients.All.SendAsync("ReceiveProductUpdate", product);
+            await _hubContext.Clients.All.SendAsync("ReceiveProductUpdated", product);
             return Ok();
         }
         [HttpDelete("{id}")]
@@ -44,7 +45,7 @@ namespace train_signal_ir_sever.Controllers
             }
             _dbContext.Product.Remove(product);
             await _dbContext.SaveChangesAsync();
-            await _hubContext.Clients.All.SendAsync("ReceiveProductDelete", id);
+            await _hubContext.Clients.All.SendAsync("ReceiveProductDeleted", id);
             return Ok();
         }
     }

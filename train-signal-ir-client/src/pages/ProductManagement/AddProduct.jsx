@@ -9,16 +9,17 @@ import {
   DialogActions,
 } from "@mui/material";
 
-const API_BASE_URL = "https://localhost:7096/product-management"; // Correct API endpoint
+//URL back-end
+const API_BASE_URL = "https://localhost:7096/product-management";
 
-const AddProduct = ({ onClose, onProductAdded }) => {
+const AddProduct = ({ onClose }) => {
   const [product, setProduct] = useState({
     name: "",
     description: "",
     price: "",
   });
-  const [loading, setLoading] = useState(false); // Handle loading state
-  const [error, setError] = useState(null); // Handle error messages
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
 
   // Handle input change
   const handleChange = (e) => {
@@ -38,10 +39,9 @@ const AddProduct = ({ onClose, onProductAdded }) => {
       };
 
       const response = await axios.post(API_BASE_URL, newProduct);
-      console.log("Response from server:", response.data);
+
       if (response.status === 200) {
-        onProductAdded(response.data); // Update parent state
-        onClose(); // Close popup only on success
+        onClose();
       }
     } catch (error) {
       console.error("Error adding product:", error);
@@ -58,6 +58,7 @@ const AddProduct = ({ onClose, onProductAdded }) => {
           Add New Product
         </Typography>
         {error && <Typography color="error">{error}</Typography>}
+
         <form onSubmit={handleSubmit}>
           <TextField
             fullWidth

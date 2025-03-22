@@ -9,21 +9,11 @@ export const api = axios.create({
   },
 });
 
-// 🟢 CREATE: Add a new product
-export const createProduct = async (productData) => {
-  try {
-    const response = await api.post("/", productData);
-    return response.data;
-  } catch (error) {
-    console.error("Error creating product", error);
-    return null;
-  }
-};
-
 // 🔵 READ: Get all products
 export const getProducts = async () => {
   try {
-    const response = await api.get("");
+    const response = await api.get("/");
+    console.log(response);
     return response.data;
   } catch (error) {
     console.error("Error fetching products", error);
@@ -31,10 +21,23 @@ export const getProducts = async () => {
   }
 };
 
+// 🟢 CREATE: Add a new product
+export const createProduct = async (productData) => {
+  try {
+    const response = await api.post("/", productData);
+    console.log(response);
+    return response.data;
+  } catch (error) {
+    console.error("Error creating product", error);
+    return null;
+  }
+};
+
 // 🟡 UPDATE: Update an existing product
 export const updateProduct = async (productId, updatedData) => {
   try {
     const response = await api.put("/", { id: productId, ...updatedData });
+    console.log(response);
     return response.data;
   } catch (error) {
     console.error(`Error updating product ${productId}`, error);
@@ -45,10 +48,10 @@ export const updateProduct = async (productId, updatedData) => {
 // 🔴 DELETE: Remove a product
 export const deleteProduct = async (productId) => {
   try {
-    await api.delete(`/${productId}`);
+    await axios.delete(`${API_BASE_URL}/${productId}`);
     return true;
   } catch (error) {
-    console.error(`Error deleting product ${productId}`, error);
+    console.error("Error deleting product:", error);
     return false;
   }
 };

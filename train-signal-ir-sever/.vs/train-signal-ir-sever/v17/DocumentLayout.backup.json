@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|d:\\fpt-semester6\\trainsignalir\\train-signal-ir\\train-signal-ir-sever\\train-signal-ir-sever.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|solutionrelative:train-signal-ir-sever.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|d:\\fpt-semester6\\trainsignalir\\train-signal-ir\\train-signal-ir-sever\\signalir\\producthub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|solutionrelative:signalir\\producthub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|d:\\fpt-semester6\\trainsignalir\\train-signal-ir\\train-signal-ir-sever\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|d:\\fpt-semester6\\trainsignalir\\train-signal-ir\\train-signal-ir-sever\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|d:\\fpt-semester6\\trainsignalir\\train-signal-ir\\train-signal-ir-sever\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|d:\\fpt-semester6\\trainsignalir\\train-signal-ir\\train-signal-ir-sever\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|d:\\fpt-semester6\\trainsignalir\\train-signal-ir\\train-signal-ir-sever\\controllers\\productmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|solutionrelative:controllers\\productmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|d:\\fpt-semester6\\trainsignalir\\train-signal-ir\\train-signal-ir-sever\\signalir\\producthub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|solutionrelative:signalir\\producthub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|d:\\fpt-semester6\\trainsignalir\\train-signal-ir\\train-signal-ir-sever\\train-signal-ir-sever.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|solutionrelative:train-signal-ir-sever.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|d:\\fpt-semester6\\trainsignalir\\train-signal-ir\\train-signal-ir-sever\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E724BA6D-2A81-4143-8AD5-D702598D2C9F}|train-signal-ir-sever.csproj|d:\\fpt-semester6\\trainsignalir\\train-signal-ir\\train-signal-ir-sever\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +42,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-20T11:16:05.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T11:15:02.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T11:15:01.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "train-signal-ir-sever.csproj.Backup.tmp",
               "DocumentMoniker": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\train-signal-ir-sever.csproj.Backup.tmp",
               "RelativeDocumentMoniker": "train-signal-ir-sever.csproj.Backup.tmp",
@@ -47,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -59,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -72,25 +123,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ProductHub.cs",
               "DocumentMoniker": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\SignalIr\\ProductHub.cs",
               "RelativeDocumentMoniker": "SignalIr\\ProductHub.cs",
               "ToolTip": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\SignalIr\\ProductHub.cs",
               "RelativeToolTip": "SignalIr\\ProductHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:16:26.358Z"
+              "WhenOpened": "2025-03-20T09:16:26.358Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ProductManagementController.cs",
               "DocumentMoniker": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\Controllers\\ProductManagementController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductManagementController.cs",
               "ToolTip": "D:\\FPT-Semester6\\TrainSignalIr\\train-signal-ir\\train-signal-ir-sever\\Controllers\\ProductManagementController.cs",
               "RelativeToolTip": "Controllers\\ProductManagementController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T06:40:16.182Z",
               "EditorCaption": ""
