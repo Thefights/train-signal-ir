@@ -5,7 +5,7 @@ let connection = null;
 export const startSignalRConnection = async ({ onAdd, onUpdate, onDelete }) => {
   if (!connection) {
     connection = new signalR.HubConnectionBuilder()
-      .withUrl("https://localhost:7096/productHub")
+      .withUrl("http://localhost:8080/productHub")
       .withAutomaticReconnect()
       .build();
 

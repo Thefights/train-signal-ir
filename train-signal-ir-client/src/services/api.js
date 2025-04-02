@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "https://localhost:7096/product-management"; // Adjust based on your backend
+const API_BASE_URL = "http://localhost:8080/product-management"; // Adjust based on your backend
 
 export const api = axios.create({
   baseURL: API_BASE_URL,

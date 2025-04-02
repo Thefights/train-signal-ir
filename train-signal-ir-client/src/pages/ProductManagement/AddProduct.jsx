@@ -10,7 +10,7 @@ import {
 } from "@mui/material";
 
 //URL back-end
-const API_BASE_URL = "https://localhost:7096/product-management";
+const API_BASE_URL = "http://localhost:8080/product-management";
 
 const AddProduct = ({ onClose }) => {
   const [product, setProduct] = useState({

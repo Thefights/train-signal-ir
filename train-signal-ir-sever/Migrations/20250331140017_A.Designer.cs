@@ -11,8 +11,8 @@ using train_signal_ir_sever.Data;
 namespace train_signal_ir_sever.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250320050007_a")]
-    partial class a
+    [Migration("20250331140017_A")]
+    partial class A
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

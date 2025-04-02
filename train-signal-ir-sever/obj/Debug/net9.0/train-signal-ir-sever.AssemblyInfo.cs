@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("c93ac7ef-efb0-44a5-93f2-d00ac4df2e4b")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("train-signal-ir-sever")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef0f8e08edcb9577f969d61998406c229cdfb168")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7d8571ac86fb30e43bd1273a994a00d6542d5c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("train-signal-ir-sever")]
 [assembly: System.Reflection.AssemblyTitleAttribute("train-signal-ir-sever")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
